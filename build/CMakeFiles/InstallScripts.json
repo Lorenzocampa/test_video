@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/dev_share/dev/test_video/build/cmake_install.cmake",
+		"/dev_share/dev/test_video/build/_deps/ccache.cmake-build/cmake_install.cmake",
+		"/dev_share/dev/test_video/build/_deps/glfw-build/cmake_install.cmake",
+		"/dev_share/dev/test_video/build/_deps/glfw-build/src/cmake_install.cmake",
+		"/dev_share/dev/test_video/build/_deps/glad-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

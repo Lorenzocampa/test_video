@@ -1,0 +1,158 @@
+[
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -I/dev_share/dev/test_video/inc -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/build/_deps/glad-build/include -o CMakeFiles/test_video.dir/src/glad.c.o -c /dev_share/dev/test_video/src/glad.c",
+  "file": "/dev_share/dev/test_video/src/glad.c",
+  "output": "/dev_share/dev/test_video/build/CMakeFiles/test_video.dir/src/glad.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/c++ -I/dev_share/dev/test_video/inc -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/build/_deps/glad-build/include -std=gnu++11 -o CMakeFiles/test_video.dir/src/main.cpp.o -c /dev_share/dev/test_video/src/main.cpp",
+  "file": "/dev_share/dev/test_video/src/main.cpp",
+  "output": "/dev_share/dev/test_video/build/CMakeFiles/test_video.dir/src/main.cpp.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/context.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/context.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/init.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/init.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/input.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/input.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/monitor.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/monitor.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/platform.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/platform.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/vulkan.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/vulkan.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/window.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/window.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/egl_context.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/egl_context.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/osmesa_context.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/osmesa_context.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/null_init.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/null_init.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/null_monitor.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/null_monitor.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/null_window.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/null_window.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/null_joystick.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/null_joystick.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/posix_module.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/posix_module.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/posix_module.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/posix_module.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/posix_time.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/posix_time.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/posix_time.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/posix_time.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/posix_thread.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/posix_thread.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/posix_thread.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/posix_thread.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/x11_init.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/x11_init.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/x11_init.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/x11_init.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/x11_monitor.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/x11_monitor.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/x11_monitor.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/x11_monitor.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/x11_window.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/x11_window.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/x11_window.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/x11_window.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/xkb_unicode.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/xkb_unicode.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/xkb_unicode.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/xkb_unicode.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/glx_context.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/glx_context.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/glx_context.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/glx_context.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/linux_joystick.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/linux_joystick.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/linux_joystick.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/linux_joystick.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/include -I/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src -I/dev_share/dev/test_video/build/_deps/glfw-build/src -std=c99 -flto -fno-fat-lto-objects -fPIC -Wall -o _deps/glfw-build/src/CMakeFiles/glfw.dir/posix_poll.c.o -c /dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/posix_poll.c",
+  "file": "/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/posix_poll.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glfw-build/src/CMakeFiles/glfw.dir/posix_poll.c.o"
+},
+{
+  "directory": "/dev_share/dev/test_video/build",
+  "command": "/usr/bin/cc -I/dev_share/dev/test_video/build/_deps/glad-build/include -flto -fno-fat-lto-objects -o _deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o -c /dev_share/dev/test_video/build/_deps/glad-build/src/glad.c",
+  "file": "/dev_share/dev/test_video/build/_deps/glad-build/src/glad.c",
+  "output": "/dev_share/dev/test_video/build/_deps/glad-build/CMakeFiles/glad.dir/src/glad.c.o"
+}
+]

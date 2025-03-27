@@ -1,0 +1,24 @@
+#define ASSERT(x) \
+	if (!(x))     \
+		__debugbrake();
+#define glCall(x)  \
+	clear_error(); \
+	x;             \
+	ASSERT(check_error);
+
+static void clear_error()
+{
+	while (glGetError() != GL_NO_ERROR)
+	{
+	}
+}
+
+static bool check_error()
+{
+	while (GLenum error = glGetError())
+	{
+		printf("[OpenGL Error] (", error, ")\n");
+		return false;
+	}
+	return true;
+}

@@ -1,0 +1,802 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 3.16.0-4-686-pae - i686
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /dev_share/dev/test_video/build/CMakeFiles/4.0.20250318-g6987e87-dirty/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /dev_share/dev/test_video/build/CMakeFiles/4.0.20250318-g6987e87-dirty/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-IT5gE3"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-IT5gE3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-IT5gE3'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_c5bf1
+        [1/2] /usr/bin/cc   -v -o CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.0/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: i586-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10+deb8u2' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu
+        Thread model: posix
+        gcc version 4.9.2 (Debian 4.9.2-10+deb8u2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i586'
+         /usr/lib/gcc/i586-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu /usr/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccyUW4ug.s
+        GNU C (Debian 4.9.2-10+deb8u2) version 4.9.2 (i586-linux-gnu)
+        	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p3, MPC version 1.0.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/i586-linux-gnu/4.9/../../../../i586-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/i586-linux-gnu/4.9/include
+         /usr/local/include
+         /usr/lib/gcc/i586-linux-gnu/4.9/include-fixed
+         /usr/include/i386-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C (Debian 4.9.2-10+deb8u2) version 4.9.2 (i586-linux-gnu)
+        	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p3, MPC version 1.0.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: cf71d6f7ff45932ba9ac8022d5119a69
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i586'
+         as -v --32 -o CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o /tmp/ccyUW4ug.s
+        GNU assembler version 2.25 (i586-linux-gnu) using BFD version (GNU Binutils for Debian) 2.25
+        COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i586'
+        [2/2] : && /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -o cmTC_c5bf1   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper
+        Target: i586-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10+deb8u2' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu
+        Thread model: posix
+        gcc version 4.9.2 (Debian 4.9.2-10+deb8u2) 
+        COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c5bf1' '-mtune=generic' '-march=i586'
+         /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX0VhVe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c5bf1 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. -v CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+        collect2 version 4.9.2
+        /usr/bin/ld -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX0VhVe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c5bf1 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. -v CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.25
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/usr/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/i586-linux-gnu/4.9/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed]
+          add: [/usr/include/i386-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/i586-linux-gnu/4.9/include] ==> [/usr/lib/gcc/i586-linux-gnu/4.9/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed] ==> [/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed]
+        collapse include dir [/usr/include/i386-linux-gnu] ==> [/usr/include/i386-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/i586-linux-gnu/4.9/include;/usr/local/include;/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed;/usr/include/i386-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/usr/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-IT5gE3']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/ninja -v cmTC_c5bf1]
+        ignore line: [[1/2] /usr/bin/cc   -v -o CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.0/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: i586-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10+deb8u2' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.9.2 (Debian 4.9.2-10+deb8u2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [ /usr/lib/gcc/i586-linux-gnu/4.9/cc1 -quiet -v -imultiarch i386-linux-gnu /usr/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccyUW4ug.s]
+        ignore line: [GNU C (Debian 4.9.2-10+deb8u2) version 4.9.2 (i586-linux-gnu)]
+        ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2-p3  MPC version 1.0.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/i586-linux-gnu/4.9/../../../../i586-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/i586-linux-gnu/4.9/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/i586-linux-gnu/4.9/include-fixed]
+        ignore line: [ /usr/include/i386-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C (Debian 4.9.2-10+deb8u2) version 4.9.2 (i586-linux-gnu)]
+        ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2-p3  MPC version 1.0.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: cf71d6f7ff45932ba9ac8022d5119a69]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [ as -v --32 -o CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o /tmp/ccyUW4ug.s]
+        ignore line: [GNU assembler version 2.25 (i586-linux-gnu) using BFD version (GNU Binutils for Debian) 2.25]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=i586']
+        ignore line: [[2/2] : && /usr/bin/cc  -v -Wl -v CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -o cmTC_c5bf1   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper]
+        ignore line: [Target: i586-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10+deb8u2' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.9.2 (Debian 4.9.2-10+deb8u2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c5bf1' '-mtune=generic' '-march=i586']
+        link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX0VhVe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c5bf1 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. -v CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccX0VhVe.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_i386] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_c5bf1] ==> ignore
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o]
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o]
+          arg [-L/usr/lib/gcc/i586-linux-gnu/4.9] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9]
+          arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu]
+          arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib]
+          arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--no-as-needed] ==> ignore
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtend.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/crtend.o]
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+        ignore line: [collect2 version 4.9.2]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccX0VhVe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c5bf1 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. -v CMakeFiles/cmTC_c5bf1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> [/usr/lib/i386-linux-gnu/crt1.o]
+        collapse obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> [/usr/lib/i386-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o] ==> [/usr/lib/i386-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9] ==> [/usr/lib/gcc/i586-linux-gnu/4.9]
+        collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+        collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/i386-linux-gnu/crt1.o;/usr/lib/i386-linux-gnu/crti.o;/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o;/usr/lib/gcc/i586-linux-gnu/4.9/crtend.o;/usr/lib/i386-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/i586-linux-gnu/4.9;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.25
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-s4crIG"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-s4crIG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-s4crIG'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_7b0c5
+        [1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: i586-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10+deb8u2' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu
+        Thread model: posix
+        gcc version 4.9.2 (Debian 4.9.2-10+deb8u2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         /usr/lib/gcc/i586-linux-gnu/4.9/cc1plus -quiet -v -imultiarch i386-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccpKG7jF.s
+        GNU C++ (Debian 4.9.2-10+deb8u2) version 4.9.2 (i586-linux-gnu)
+        	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p3, MPC version 1.0.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/i386-linux-gnu/c++/4.9"
+        ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/i586-linux-gnu/4.9/../../../../i586-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/4.9
+         /usr/include/i386-linux-gnu/c++/4.9
+         /usr/include/c++/4.9/backward
+         /usr/lib/gcc/i586-linux-gnu/4.9/include
+         /usr/local/include
+         /usr/lib/gcc/i586-linux-gnu/4.9/include-fixed
+         /usr/include/i386-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++ (Debian 4.9.2-10+deb8u2) version 4.9.2 (i586-linux-gnu)
+        	compiled by GNU C version 4.9.2, GMP version 6.0.0, MPFR version 3.1.2-p3, MPC version 1.0.2
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 43826028c664cd2ee7088a388c1584ea
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         as -v --32 -o CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpKG7jF.s
+        GNU assembler version 2.25 (i586-linux-gnu) using BFD version (GNU Binutils for Debian) 2.25
+        COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        [2/2] : && /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7b0c5   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper
+        Target: i586-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10+deb8u2' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu
+        Thread model: posix
+        gcc version 4.9.2 (Debian 4.9.2-10+deb8u2) 
+        COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b0c5' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdAvLsH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -dynamic-linker /lib/ld-linux.so.2 -o cmTC_7b0c5 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. -v CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+        collect2 version 4.9.2
+        /usr/bin/ld -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdAvLsH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -dynamic-linker /lib/ld-linux.so.2 -o cmTC_7b0c5 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. -v CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.25
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:191 (message)"
+      - "/usr/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/4.9]
+          add: [/usr/include/i386-linux-gnu/c++/4.9]
+          add: [/usr/include/c++/4.9/backward]
+          add: [/usr/lib/gcc/i586-linux-gnu/4.9/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed]
+          add: [/usr/include/i386-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/4.9] ==> [/usr/include/c++/4.9]
+        collapse include dir [/usr/include/i386-linux-gnu/c++/4.9] ==> [/usr/include/i386-linux-gnu/c++/4.9]
+        collapse include dir [/usr/include/c++/4.9/backward] ==> [/usr/include/c++/4.9/backward]
+        collapse include dir [/usr/lib/gcc/i586-linux-gnu/4.9/include] ==> [/usr/lib/gcc/i586-linux-gnu/4.9/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed] ==> [/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed]
+        collapse include dir [/usr/include/i386-linux-gnu] ==> [/usr/include/i386-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/4.9;/usr/include/i386-linux-gnu/c++/4.9;/usr/include/c++/4.9/backward;/usr/lib/gcc/i586-linux-gnu/4.9/include;/usr/local/include;/usr/lib/gcc/i586-linux-gnu/4.9/include-fixed;/usr/include/i386-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "/usr/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-s4crIG']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/ninja -v cmTC_7b0c5]
+        ignore line: [[1/2] /usr/bin/c++   -v -o CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: i586-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10+deb8u2' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.9.2 (Debian 4.9.2-10+deb8u2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ /usr/lib/gcc/i586-linux-gnu/4.9/cc1plus -quiet -v -imultiarch i386-linux-gnu -D_GNU_SOURCE /usr/share/cmake-4.0/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccpKG7jF.s]
+        ignore line: [GNU C++ (Debian 4.9.2-10+deb8u2) version 4.9.2 (i586-linux-gnu)]
+        ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2-p3  MPC version 1.0.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/i386-linux-gnu/c++/4.9"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/i586-linux-gnu/4.9/../../../../i586-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/4.9]
+        ignore line: [ /usr/include/i386-linux-gnu/c++/4.9]
+        ignore line: [ /usr/include/c++/4.9/backward]
+        ignore line: [ /usr/lib/gcc/i586-linux-gnu/4.9/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/i586-linux-gnu/4.9/include-fixed]
+        ignore line: [ /usr/include/i386-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (Debian 4.9.2-10+deb8u2) version 4.9.2 (i586-linux-gnu)]
+        ignore line: [	compiled by GNU C version 4.9.2  GMP version 6.0.0  MPFR version 3.1.2-p3  MPC version 1.0.2]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 43826028c664cd2ee7088a388c1584ea]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ as -v --32 -o CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccpKG7jF.s]
+        ignore line: [GNU assembler version 2.25 (i586-linux-gnu) using BFD version (GNU Binutils for Debian) 2.25]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [[2/2] : && /usr/bin/c++  -v -Wl -v CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7b0c5   && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper]
+        ignore line: [Target: i586-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10+deb8u2' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c c++ java go d fortran objc obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 4.9.2 (Debian 4.9.2-10+deb8u2) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7b0c5' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdAvLsH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -dynamic-linker /lib/ld-linux.so.2 -o cmTC_7b0c5 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. -v CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccdAvLsH.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_i386] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_7b0c5] ==> ignore
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o]
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o]
+          arg [-L/usr/lib/gcc/i586-linux-gnu/4.9] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9]
+          arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu]
+          arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib]
+          arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtend.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/crtend.o]
+          arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+        ignore line: [collect2 version 4.9.2]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdAvLsH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -dynamic-linker /lib/ld-linux.so.2 -o cmTC_7b0c5 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. -v CMakeFiles/cmTC_7b0c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> [/usr/lib/i386-linux-gnu/crt1.o]
+        collapse obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> [/usr/lib/i386-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o] ==> [/usr/lib/i386-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9] ==> [/usr/lib/gcc/i586-linux-gnu/4.9]
+        collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+        collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/i386-linux-gnu/crt1.o;/usr/lib/i386-linux-gnu/crti.o;/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o;/usr/lib/gcc/i586-linux-gnu/4.9/crtend.o;/usr/lib/i386-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/i586-linux-gnu/4.9;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.25
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/Internal/FeatureTesting.cmake:87 (_record_compiler_features)"
+      - "/usr/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake:124 (_record_compiler_features_cxx)"
+      - "/usr/share/cmake-4.0/Modules/CMakeDetermineCompilerSupport.cmake:70 (cmake_record_cxx_compile_features)"
+      - "/usr/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILER_SUPPORT)"
+      - ".cpm_cache/ccache.cmake/7a26f57dc8f3936871446560a7ea65b063483118/CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-ue29Kk"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-ue29Kk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-ue29Kk'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_c9a96
+        [1/2] /usr/bin/c++   -std=c++14 -o CMakeFiles/cmTC_c9a96.dir/feature_tests.cxx.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-ue29Kk/feature_tests.cxx
+        [2/2] : && /usr/bin/c++   CMakeFiles/cmTC_c9a96.dir/feature_tests.cxx.o -o cmTC_c9a96   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "/usr/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - ".cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-kZNxV0"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-kZNxV0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;;/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-kZNxV0'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_9d693
+        [1/2] /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_9d693.dir/src.c.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-kZNxV0/src.c
+        [2/2] : && /usr/bin/cc   CMakeFiles/cmTC_9d693.dir/src.c.o -o cmTC_9d693   && :
+        FAILED: [code=1] cmTC_9d693 
+        : && /usr/bin/cc   CMakeFiles/cmTC_9d693.dir/src.c.o -o cmTC_9d693   && :
+        CMakeFiles/cmTC_9d693.dir/src.c.o: In function `main':
+        src.c:(.text+0x27): undefined reference to `pthread_create'
+        src.c:(.text+0x36): undefined reference to `pthread_detach'
+        src.c:(.text+0x45): undefined reference to `pthread_cancel'
+        src.c:(.text+0x56): undefined reference to `pthread_join'
+        src.c:(.text+0x67): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "/usr/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - ".cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-o8GFYH"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-o8GFYH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;;/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-o8GFYH'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_ad094
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_ad094.dir/CheckFunctionExists.c.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-o8GFYH/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_ad094.dir/CheckFunctionExists.c.o -o cmTC_ad094  -lpthreads && :
+        FAILED: [code=1] cmTC_ad094 
+        : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_ad094.dir/CheckFunctionExists.c.o -o cmTC_ad094  -lpthreads && :
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "/usr/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - ".cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-q2WFGp"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-q2WFGp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;;/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-q2WFGp'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_3b0ac
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_3b0ac.dir/CheckFunctionExists.c.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-q2WFGp/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_3b0ac.dir/CheckFunctionExists.c.o -o cmTC_3b0ac  -lpthread && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/FindX11.cmake:701 (check_library_exists)"
+      - ".cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/CMakeLists.txt:181 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/i386-linux-gnu/libX11.so;/usr/lib/i386-linux-gnu/libXext.so"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-EShWQ8"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-EShWQ8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;;/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMake/modules"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-EShWQ8'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_18429
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_18429.dir/CheckFunctionExists.c.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-EShWQ8/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=XOpenDisplay  CMakeFiles/cmTC_18429.dir/CheckFunctionExists.c.o -o cmTC_18429  /usr/lib/i386-linux-gnu/libX11.so  /usr/lib/i386-linux-gnu/libXext.so && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/FindX11.cmake:716 (check_function_exists)"
+      - ".cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/CMakeLists.txt:181 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-sgETJS"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-sgETJS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;;/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-sgETJS'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_3503f
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_3503f.dir/CheckFunctionExists.c.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-sgETJS/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=gethostbyname  CMakeFiles/cmTC_3503f.dir/CheckFunctionExists.c.o -o cmTC_3503f   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/FindX11.cmake:730 (check_function_exists)"
+      - ".cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/CMakeLists.txt:181 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-QfoSkD"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-QfoSkD"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;;/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-QfoSkD'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_25212
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_25212.dir/CheckFunctionExists.c.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-QfoSkD/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=connect  CMakeFiles/cmTC_25212.dir/CheckFunctionExists.c.o -o cmTC_25212   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/FindX11.cmake:739 (check_function_exists)"
+      - ".cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/CMakeLists.txt:181 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-mDyzEo"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-mDyzEo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;;/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-mDyzEo'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_6b4ef
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_6b4ef.dir/CheckFunctionExists.c.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-mDyzEo/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=remove  CMakeFiles/cmTC_6b4ef.dir/CheckFunctionExists.c.o -o cmTC_6b4ef   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/FindX11.cmake:748 (check_function_exists)"
+      - ".cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/CMakeLists.txt:181 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-7i9wLa"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-7i9wLa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;;/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-7i9wLa'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_10030
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_10030.dir/CheckFunctionExists.c.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-7i9wLa/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=shmat  CMakeFiles/cmTC_10030.dir/CheckFunctionExists.c.o -o cmTC_10030   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "/usr/share/cmake-4.0/Modules/FindX11.cmake:758 (check_library_exists)"
+      - ".cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/src/CMakeLists.txt:181 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-Bd5zJX"
+      binary: "/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-Bd5zJX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/dev_share/dev/test_video/build/CPM_modules;;/dev_share/dev/test_video/.cpm_cache/glfw/9fc60ad2c810b92f74235a589a9a0edee75bc2d3/CMake/modules"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-Bd5zJX'
+        
+        Run Build Command(s): /usr/local/bin/ninja -v cmTC_9e855
+        [1/2] /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_9e855.dir/CheckFunctionExists.c.o -c /dev_share/dev/test_video/build/CMakeFiles/CMakeScratch/TryCompile-Bd5zJX/CheckFunctionExists.c
+        [2/2] : && /usr/bin/cc -DCHECK_FUNCTION_EXISTS=IceConnectionNumber  CMakeFiles/cmTC_9e855.dir/CheckFunctionExists.c.o -o cmTC_9e855  -lICE && :
+        
+      exitCode: 0
+...
