@@ -5,12 +5,13 @@
 #include <sstream>
 #include <string>
 
-// Structure to hold vertex and fragment shader source strings.
-struct shader_program_src
-{
-	std::string vertex_src;
-	std::string fragment_src;
-};
+#include "renderer.h"
+#include "IndexBuffer.h"
+#include "VertexBuffer.h"
+#include "VertexBufferLayout.h"
+#include "VertexArray.h"
+#include "shader.h"
+#include "Texture.h"
 
 // Improved shader parser that looks for "#shader vertex" and "#shader fragment".
 static shader_program_src parse_shader(const std::string& filepath)
@@ -117,7 +118,7 @@ int main(void)
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 1);
 
-	GLFWwindow* window = glfwCreateWindow(640, 480, "Hello Triangle", nullptr, nullptr);
+	GLFWwindow* window = glfwCreateWindow(640, 480, "LETSGOSKI", nullptr, nullptr);
 	if (!window)
 	{
 		glfwTerminate();
@@ -125,7 +126,6 @@ int main(void)
 	}
 
 	glfwMakeContextCurrent(window);
-	glfwSwapInterval(0);
 
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
 	{
@@ -137,63 +137,72 @@ int main(void)
 
 	// Define vertices for a single triangle (3 vertices, each with 2 components)
 	float positions[] = {
-		-0.5f, -0.5f, // Vertex 1
-		0.5f,  -0.5f, // Vertex 2
-		0.5f,  0.5f,  // Vertex 3
+		-0.5F, -0.5F, 0.0F, 0.0F, // Vertex 1
+		0.5F,  -0.5F, 1.0F, 0.0F, // Vertex 2
+		0.5F,  0.5F,  1.0F, 1.0F, // Vertex 3
 
-		-0.5f, 0.5f // vertex 5
+		-0.5F, 0.5F,  0.0F, 1.0F // vertex 5
 	};
 
 	unsigned int indices[] = {0, 1, 2, 2, 3, 0};
 
-	unsigned int buffer;
-	glGenBuffers(1, &buffer);
-	glBindBuffer(GL_ARRAY_BUFFER, buffer);
-	glBufferData(GL_ARRAY_BUFFER, 6 * 2 * sizeof(float), positions, GL_STATIC_DRAW);
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-	// Set up the vertex attribute pointer for attribute 0 ("position")
-	glEnableVertexAttribArray(0);
-	glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), (void*)0);
+	VertexArray va;
+	VertexBuffer vb(positions, 4 * 4 * sizeof(float));
 
-	unsigned int ibo;
-	glGenBuffers(1, &ibo);
-	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ibo);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, 6 * sizeof(unsigned int), indices, GL_STATIC_DRAW);
+	VertexBufferLayout layout;
+	layout.push<float>(2);
+	layout.push<float>(2);
+	va.AddBuffer(vb, layout);
 
-	// Parse the shader file (should contain both vertex and fragment shader source separated by "#shader" markers)
-	shader_program_src source = parse_shader("res/shaders/basic.shader");
-	// For debugging, print the shader sources
-	printf("VERTEX SHADER SOURCE:\n%s\n", source.vertex_src.c_str());
-	printf("FRAGMENT SHADER SOURCE:\n%s\n", source.fragment_src.c_str());
+	IndexBuffer ib(indices, 6);
 
-	// Create and use the shader program from the parsed shader sources.
-	unsigned int shader_program = create_shader(source.vertex_src, source.fragment_src);
-	glUseProgram(shader_program);
+	Shader shader("res/shaders/basic.shader");
+	shader.Bind();
+	shader.SetUniform4f("u_Color", 0.8F, 0.3F, 0.8F, 1.0F);
 
-	// Unbind the buffer (optional)
-	glBindBuffer(GL_ARRAY_BUFFER, 0);
+	Texture texture("res/textures/sfondo harry lo snitcher.png");
+	texture.Bind();
+	shader.SetUniform1i("u_Texture", 0);
 
+	va.Unbind();
+	shader.Unbind();
+	vb.Unbind();
+	ib.Unbind();
+
+	Renderer renderer;
+
+	float r			= 0.0F;
+	float increment = 0.05F;
 	// Render loop
 	while (!glfwWindowShouldClose(window))
 	{
-		glClearColor(0.125f, 0.125f, 0.125f, 1.0f); // Dark gray color
-		glClear(GL_COLOR_BUFFER_BIT);
+		renderer.Clear();
+		shader.Bind();
+		shader.SetUniform4f("u_Color", r, 0.3F, 0.8F, 1.0F);
 
-		// Use our shader program and bind the vertex buffer state
-		glUseProgram(shader_program);
-		glBindBuffer(GL_ARRAY_BUFFER, buffer);
-		glEnableVertexAttribArray(0);
+		renderer.Draw(va, ib, shader);
 
-		// Draw the triangle (3 vertices)
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nullptr);
+
+		if (r > 1.0F)
+		{
+			increment = -0.05F;
+		}
+		else if (r < 0.0F)
+		{
+			increment = 0.05F;
+		}
+
+		r += increment;
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}
 
 	// Clean up
-	glDeleteProgram(shader_program);
-	glDeleteBuffers(1, &buffer);
 	glfwDestroyWindow(window);
 	glfwTerminate();
 

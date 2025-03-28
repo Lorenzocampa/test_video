@@ -1,18 +1,31 @@
-
 #shader vertex
 #version 120
-attribute vec2 position;
+
+attribute vec4 position;
+attribute vec2 texCoord;
+varying vec2 v_TexCoord;
+
 void main()
 {
-	// For a simple triangle, we simply build a vec4 from the attribute.
-	gl_Position = vec4(position, 0.0, 1.0);
+    // Directly use the position attribute for gl_Position.
+    gl_Position = position;
+    v_TexCoord = texCoord;
 }
+
 
 // Fragment shader remains the sam
 #shader fragment
 #version 120
+
+varying vec2 v_TexCoord;
+
+uniform sampler2D u_Texture;
+
 void main()
 {
-	gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);
+    // Use texture2D for texture lookup and use the varying variable.
+    vec4 texColor = texture2D(u_Texture, v_TexCoord);
+    gl_FragColor = texColor;
 }
+
 
